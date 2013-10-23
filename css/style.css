@@ -5,61 +5,26 @@ text-decoration:none;
 margin:0;
 padding:0;
 border:0;
-
 }
-
-/*Cambiar color PlaceHolder de Search*/
-::-webkit-input-placeholder { /* WebKit browsers */
-    color:    white;
-}
-:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
-    color:    white;
-}
-::-moz-placeholder { /* Mozilla Firefox 19+ */
-    color:    white;
-}
-:-ms-input-placeholder { /* Internet Explorer 10+ */
-    color:    white;
-}
-/*Eliminar estilos por defecto de navegador*/
-input[type=search] {
-    /*appearance: none;*/
-    -webkit-appearance: textfield;
-    -moz-appearance: none;
-    -o-appearance: none;
-}
-::-webkit-search-cancel-button { display: none; }
 
 html,body {
 	width: 100%;
-	
     min-height: 100%;
 	padding: 0;
 	margin: 0;
-    background: rgb(242,242,242); /* Old browsers */
-    /* IE9 SVG, needs conditional override of 'filter' to 'none' */
-    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIxMyUiIHN0b3AtY29sb3I9IiNmMmYyZjIiIHN0b3Atb3BhY2l0eT0iMSIvPgogICAgPHN0b3Agb2Zmc2V0PSI4NyUiIHN0b3AtY29sb3I9IiNjY2NjY2MiIHN0b3Atb3BhY2l0eT0iMSIvPgogICAgPHN0b3Agb2Zmc2V0PSI5NyUiIHN0b3AtY29sb3I9IiNjY2NjY2MiIHN0b3Atb3BhY2l0eT0iMSIvPgogICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjY2NjY2NjIiBzdG9wLW9wYWNpdHk9IjEiLz4KICA8L2xpbmVhckdyYWRpZW50PgogIDxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIGZpbGw9InVybCgjZ3JhZC11Y2dnLWdlbmVyYXRlZCkiIC8+Cjwvc3ZnPg==);
-    background: -moz-linear-gradient(top,  rgba(242,242,242,1) 13%, rgba(204,204,204,1) 87%, rgba(204,204,204,1) 97%, rgba(204,204,204,1) 100%); /* FF3.6+ */
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(13%,rgba(242,242,242,1)), color-stop(87%,rgba(204,204,204,1)), color-stop(97%,rgba(204,204,204,1)), color-stop(100%,rgba(204,204,204,1))); /* Chrome,Safari4+ */
-    background: -webkit-linear-gradient(top,  rgba(242,242,242,1) 13%,rgba(204,204,204,1) 87%,rgba(204,204,204,1) 97%,rgba(204,204,204,1) 100%); /* Chrome10+,Safari5.1+ */
-    background: -o-linear-gradient(top,  rgba(242,242,242,1) 13%,rgba(204,204,204,1) 87%,rgba(204,204,204,1) 97%,rgba(204,204,204,1) 100%); /* Opera 11.10+ */
-    background: -ms-linear-gradient(top,  rgba(242,242,242,1) 13%,rgba(204,204,204,1) 87%,rgba(204,204,204,1) 97%,rgba(204,204,204,1) 100%); /* IE10+ */
-    background: linear-gradient(to bottom,  rgba(242,242,242,1) 13%,rgba(204,204,204,1) 87%,rgba(204,204,204,1) 97%,rgba(204,204,204,1) 100%); /* W3C */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f2f2', endColorstr='#cccccc',GradientType=0 ); /* IE6-8 */
+background: white; /* Old browsers */
 	cursor: default;
 	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
 	font-size: 16px;
 }
-div#primerGlobal{
+#primerGlobal{
     min-height: 100%;
 }
-div#global {
+#global {
   width: 980px;
   height: 1100px;
   margin: 0 auto 0 auto;
-  padding-bottom: 60px;
-
-	padding-bottom: 60px;
+ padding-bottom: 60px;
     min-height: 100%;
 }
 #cabecera{
@@ -68,16 +33,14 @@ div#global {
   top: 0;
   min-width:100%;
   max-height: 100%;
-  background: rgb(255,127,4); /* Old browsers */
-  /* IE9 SVG, needs conditional override of 'filter' to 'none' */
-  background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmN2YwNCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9Ijg0JSIgc3RvcC1jb2xvcj0iI2ZmYTczZCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmZmI3NmIiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
-  background: -moz-linear-gradient(top,  rgba(255,127,4,1) 0%, rgba(255,167,61,1) 84%, rgba(255,183,107,1) 100%); /* FF3.6+ */
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,127,4,1)), color-stop(84%,rgba(255,167,61,1)), color-stop(100%,rgba(255,183,107,1))); /* Chrome,Safari4+ */
-  background: -webkit-linear-gradient(top,  rgba(255,127,4,1) 0%,rgba(255,167,61,1) 84%,rgba(255,183,107,1) 100%); /* Chrome10+,Safari5.1+ */
-  background: -o-linear-gradient(top,  rgba(255,127,4,1) 0%,rgba(255,167,61,1) 84%,rgba(255,183,107,1) 100%); /* Opera 11.10+ */
-  background: -ms-linear-gradient(top,  rgba(255,127,4,1) 0%,rgba(255,167,61,1) 84%,rgba(255,183,107,1) 100%); /* IE10+ */
-  background: linear-gradient(to bottom,  rgba(255,127,4,1) 0%,rgba(255,167,61,1) 84%,rgba(255,183,107,1) 100%); /* W3C */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff7f04', endColorstr='#ffb76b',GradientType=0 ); /* IE6-8 */
+background: #feffff; /* Old browsers */
+background: -moz-linear-gradient(left, #feffff 0%, #ddf1f9 33%, #65b6ee 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, right top, color-stop(0%,#feffff), color-stop(33%,#ddf1f9), color-stop(100%,#65b6ee)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(left, #feffff 0%,#ddf1f9 33%,#65b6ee 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(left, #feffff 0%,#ddf1f9 33%,#65b6ee 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(left, #feffff 0%,#ddf1f9 33%,#65b6ee 100%); /* IE10+ */
+background: linear-gradient(to right, #feffff 0%,#ddf1f9 33%,#65b6ee 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#feffff', endColorstr='#65b6ee',GradientType=1 ); /* IE6-9 */
   position: absolute;
   float: none;
   z-index:9999;
@@ -87,10 +50,10 @@ header {
   padding: 0;
   width: 100%;
   height: 60px;
-  border-bottom: 4px solid #CCCCCC;
-  box-shadow:0 1px 1px #CCCCCC;
+  border-bottom: 4px solid #699fc6;
+  box-shadow:0 1px 1px #699fc6;
 }
-div#headerCenter {
+#headerCenter {
   display: block;
   position: static;
   width: 980px;
@@ -103,9 +66,9 @@ nav{
   padding: 0;
   width: 100%;
   height: 30px;
-  background-color: #CCCCCC;
-  border-bottom: 4px solid #CCCCCC;
-  box-shadow:0 2px 10px #CCCCCC;
+  background-color: #699fc6;
+  border-bottom: 4px solid #699fc6;
+  box-shadow:0 2px 10px #699fc6;
 }
 #navCenter {
   display: block;
@@ -151,44 +114,6 @@ nav ul li a:hover{
     -o-transition: all 0.2s linear;
 }
 
-/*Menu Vertical desplegable*/
- 
-nav li a {
-display:block;
-}
- 
-nav ul li a:hover {
-z-index: 5;
-}
-nav ul li ul {
-visibility: hidden;
-position:absolute;
-width: 129px;
-height: auto;
-z-index: 4;
-padding: 0;
-margin: -2px 0 0 -22px;
-}
-nav ul li:hover > ul {
-visibility: visible;
-z-index: 5;
-}
-nav ul li ul li {
-position: relative;
-float: none;
-padding: 0;
-margin: 0;
-background-color: #CCCCCC;
-z-index: 6;
-border-left: 2px solid #438CDB;
-border-right: 0 solid white;
-padding: 5px 5px 5px 10px;
-line-height: normal;
-}
-
-header a:link {color: #438cdb; text-decoration: none }
-header a:hover {color: #438cdb; text-decoration: none }
-header a:visited {color: #438cdb; text-decoration: none }
 
 #logo {
   font-size: 30px;
@@ -200,83 +125,6 @@ header a:visited {color: #438cdb; text-decoration: none }
   vertical-align: middle;
   text-shadow: -1px 2px 2px black;
 }
-#searchform {
-    position: relative;
-    float: right;
-    top: 9px;
-    width: 280px;
-	height:30px;
-    padding: 4px;
-    background: #ccc;
-    border-radius: 4px;
-    box-shadow: 0 1px 1px rgba(0,0,0,.4) inset, 0 0px 0 rgba(255,255,255,.5);
-    
-}
-
-#searchform input {
-    width: 190px;
-	height:20px;
-    padding: 5px;
-    float: left;
-    border: none;
-    background: #FF8208;
-    border-radius: 3px 0 0 3px;
-	box-shadow: 0 1px 1px rgba(0,0,0,.4) inset;
-    color: White;
-}
-
-#searchform input:focus {
-	height:20px;
-    background: #FF8208;
-    box-shadow: 0 0px 2px rgba(0,0,0,.8) inset;
-    outline: none;
-}
-#searchform input:active,
-#searchform input:hover {
-  outline: none;
-  border: 0px;
-}
-#searchform button {
-    position: relative;
-    float: right;
-    border: 0;
-    cursor: pointer;
-    height: 30px;
-    width: 80px;
-    font-size:15px;
-    color: #fff;
-    background: #438cdb;
-    border-radius: 0 3px 3px 0;
-    text-shadow: 0 -1px 0 rgba(0, 0 ,0, .3);
-}   
-
-#searchform button:hover{
-    background: #2672e0;
-}	
-
-#searchform button:active,
-#searchform button:focus{
-    background: #2672e0;
-}
-
-#searchform button:before { /* flecha */
-    content: '';
-    position: absolute;
-    border-width: 8px 8px 8px 0;
-    border-style: solid solid solid none;
-    border-color: transparent #438cdb transparent;
-    top: 8px;
-    left: -5px;
-}
-
-#searchform button:hover:before{
-    border-right-color: #2672e0;
-}
-
-#searchform button:focus:before{
-    border-right-color: #2672e0;
-}    
-
 #main{
     position: relative;
     top: 134px;
@@ -284,63 +132,22 @@ header a:visited {color: #438cdb; text-decoration: none }
     width: 100%;
     height: 946px
 }
-#slider{
-    position: static;
-    display: block;
-    width: 100%;
-    height: fill-available;
-    z-index: 1;
-}
-/*Seccion donde se encontraran los productos destacados*/
-#productos{
-    position: static;
-    display: block;
-    width: 759px;
-    height: 596px;
-    margin: 50px auto 0 auto;
-}
 
-/*Creamos los productos destacados*/
-section.destacado{
-    width: 225px;
-    height: 230px;
-    box-shadow: 0px 0px 3px #438cdb;
-    border: 2px solid #438cdb;
-    float: left;
-    border-radius: 8px;
-    margin: 10px;
-    margin-top: 30px;
-}
-section article.imagen{
-    width: 100%;
-    height: 180px;
-}
-section article.imagen img{
-    width: 100%;
-    height: 100%;
-    border-top-left-radius: 6px;
-    border-top-right-radius: 6px;
-}
-section article.titulo{
-    width: 100%;
-    height: 50px;
-    background-color: #438cdb;
-}
-section article.titulo h4{
-    text-align: center;
-    color: white;
-    font-size: 20px;
-}
 
 footer {
   margin-top: -60px; /* negative value of footer height */
   min-width: 100%;
   height: 60px;
   display: block;
-  border-bottom: 5px solid #FF8208;
-  border-top: 5px solid #FF8208;
   float: none;
-  background-color: #438cdb;
+  background: #feffff; /* Old browsers */
+background: -moz-linear-gradient(left, #feffff 0%, #ddf1f9 33%, #65b6ee 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, right top, color-stop(0%,#feffff), color-stop(33%,#ddf1f9), color-stop(100%,#65b6ee)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(left, #feffff 0%,#ddf1f9 33%,#65b6ee 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(left, #feffff 0%,#ddf1f9 33%,#65b6ee 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(left, #feffff 0%,#ddf1f9 33%,#65b6ee 100%); /* IE10+ */
+background: linear-gradient(to right, #feffff 0%,#ddf1f9 33%,#65b6ee 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#feffff', endColorstr='#65b6ee',GradientType=1 ); /* IE6-9 */
   clear:both;
   position: absolute;
   max-height: 100%;
@@ -372,242 +179,6 @@ You also need to include this conditional style in the <head> of your HTML file 
 <![endif]-->
 
 */
-footer ul#logos{
-    list-style: none; /* Eliminamos el puntito negro */
-    display: block;
-    margin: 0 auto 0 auto;
-    height: 100%;
-    float: left;
-    
-    }
- 
-footer ul#logos li{
-    float: left; /* Alineamos los botones del menú */
-    padding: 0 20px 0 20px;
-    line-height: 30px;
-    margin-top: 5px;
-    outline: 0px;
-}
-section#noticia {
-    float: left;
-    height: 60px;
-    width: 498px;
-    
-}
-section#noticia label#noticia{
-    color: white;
-    line-height: 30px;
-    font-size: 18px;
-    position: relative;
-}
 
-/*CSS para producto.php*/
 
-section#producto article#imagen{
-    width: 500px;
-    height: 400px;
-    float: left;
-    margin-top: 50px;
-}
 
-section#producto article#imagen img{
-    width: 100%;
-    height: 100%;
-    border-radius: 8px;
-    border: 2px solid #438cdb;
-    box-shadow: 0 0 4px #438cdb;
-}
-
-section#producto article#texto{
-    float: left;
-    margin: 50px 0 0 20px;
-    display: block;
-    width: 400px;
-}
-
-section#producto article#texto h2{
-    text-align: center;
-    display: block;
-    color: #2672E0;
-    padding-bottom: 15px;
-    border-bottom: 2px solid #438CDB;
-    font-size: 2em;
-    width: 100%;
-}
-
-section#producto article#texto p{
-    font-size: 1.4em;
-    color: black;
-    padding-top: 30px;
-    display: block;
-    width: 100%;
-}
-
-section#producto article#texto label{
-    margin-top: 15px;
-    text-align: right;
-    display: block;
-    color: #FF8208;
-    font-size: 1.5em;
-}
-
-/*CSS para Seccion.php*/
-
-/*Seccion donde se encontraran los productos*/
-#catalogo{
-    position: static;
-    display: block;
-    width: 759px;
-    height: 100%;
-    margin: 0 auto 0 auto;
-}
-
-#catalogo h2{
-    text-align: center;
-    color: #438cdb;
-    
-    font-size: 2em;
-    border-bottom: 1px solid #FF8E19;
-}
-
-/*CSS para Busqueda.php*/
-
-div#catalogo label#busquedaError {
-    display: block;
-    margin-top: 50px;
-    text-align: left;
-    color: #FF8D17;
-    font-size: 1.5em;
-    
-}
-
-/*CSS para navegacion de productos*/
-section#navPaginas{
-    display: block;
-    position: static;
-    width: 700px;
-    height: 30px;
-    margin: -70px auto 0 auto;
-    
-}
-section#navPaginas a:hover{
-    opacity: 0.5 !important;
-    transition: all 0.2s linear; /* Comienzan las transiciones CSS3 */
-    -moz-transition: all 0.2s linear;
-    -webkit-transition: all 0.2s linear; 
-    -o-transition: all 0.2s linear;
-}
-
-section#navPaginas a.nextButton{
-    width: 24px !important;
-    height: 28px !important;
-    background: url('/images/portada/sprite-minimalist.png') no-repeat !important;
-    background-position: -0px -28px !important;
-    float: right;
-    font-size: 0 !important;
-}
-
-section#navPaginas a.prevButton{
-    width: 24px !important;
-    height: 28px !important;
-    background: url('/images/portada/sprite-minimalist.png') no-repeat !important;
-    background-position: -0px -0px !important;
-    float: left;
-    font-size: 0 !important;
-}
-
-/* CSS para Panel de Control*/
-div#main label#mensajeError{
-    font-size: 20px;
-    color: red;
-    text-align: center;
-    display: block;
-    margin: 50px auto 0 auto;
-}
-
-div#main form#loginForm{
-    position: relative;
-    top: 9px;
-    width: 285px;
-	height: 100px;
-    padding: 4px;
-    background: #ccc;
-    border-radius: 4px;
-    box-shadow: 0 1px 1px rgba(0,0,0,.4) inset, 0 0px 0 rgba(255,255,255,.5);
-    margin: 50px auto 0 auto;
-    z-index: 1;
-}
-
-div#main form#loginForm input{
-    position: relative;
-    width: 190px;
-	height:20px;
-    padding: 5px;
-    float: right;
-    border: none;
-    background: #FF8208;
-    border-radius: 0 3px 3px 0;
-	box-shadow: 0 1px 1px rgba(0,0,0,.4) inset;
-    color: white;
-    padding-left: 10px;
-    margin-bottom: 5px;
-}
-div#main form#loginForm input:focus {
-	height:20px;
-    background: #FF8208;
-    outline: none;
-}
-div#main form#loginForm input:active,
-div#main form#loginForm input:hover {
-    outline: none;
-    border: 0px;
-}
-
-div#main form#loginForm label{
-    position: relative;
-    float: left;
-    border: 0;
-    height: 30px;
-    width: 80px;
-    font-size:15px;
-    color: #fff;
-    background: #438cdb;
-    text-shadow: 0 -1px 0 rgba(0, 0 ,0, .3);
-    text-align: center;
-    line-height: 30px;
-    margin-bottom: 5px;
-    border-radius: 3px 0 0 3px;
-}
-div#main form#loginForm label:after { /* flecha */
-    content: '';
-    position: absolute;
-    border-bottom:8px solid transparent;  /* izquierda flecha */
-    border-top:8px solid transparent; /* derecha flecha */
-    border-left:8px solid #438cdb; /* base flecha y color*/
-    top: 8px;
-    left: 77px;
-    z-index: 100;
-}
-
-div#main form#loginForm button{
-    position: relative;
-    float: left;
-    border: 0;
-    height: 30px;
-    width: 100%;
-    font-size:15px;
-    color: #fff;
-    background: #438cdb;
-    text-shadow: 0 -1px 0 rgba(0, 0 ,0, .3);
-    text-align: center;
-    line-height: 30px;
-    margin-bottom: 5px;
-    border-radius: 3px;
-    cursor: pointer;
-}
-
-div#main form#loginForm button:hover ,
-div#main form#loginForm button:active,
-div#main form#loginForm button:focus {
-    background-color: #2672e0;
-}

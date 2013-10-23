@@ -28,7 +28,7 @@
                     <nav>
                         <div id="navCenter">
                             <ul class="menu">
-								
+								MENU
                             </ul>
                         </div>
                     </nav>
